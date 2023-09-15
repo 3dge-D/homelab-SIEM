@@ -12,11 +12,11 @@ I started by obtaining the Wazuh Virtual Appliance (OVA) from the [official webs
 
 With the OVA in hand, I proceeded to import it into VirtualBox, following the setup instructions provided on the Wazuh website. This step was akin to constructing a virtual security command center, ready to monitor my network.
 
-![VirtualBox Import](insert-link-to-screenshot)
+![VirtualBox Import](https://i.imgur.com/T2zNYdp.png)
 
 ### First Log-In
 
-Upon successful setup, I logged into the virtual machine using the default credentials: Username: `wazuh-user`, Password: `wazuh`. It was like stepping into the control room of my new digital security stronghold.
+Upon successful setup, I logged into the virtual machine using the default credentials: Username: `wazuh-user`, Password: `wazuh`. It was like stepping into the control room of my new digital security stronghold. I'll be sure to change this default password.
 
 ## Configuring Wazuh
 
@@ -24,13 +24,13 @@ Upon successful setup, I logged into the virtual machine using the default crede
 
 To access the dashboard and connect to my Wazuh system, I used the command `ip a` to discover the IP address of my Wazuh server, which I duly noted down. This IP address served as the digital address for my security headquarters.
 
-![IP Address](insert-link-to-screenshot)
+![IP Address](https://i.imgur.com/uXSlXIP.png)
 
 ### Navigating the Dashboard
 
 With the IP address in hand, I opened my web browser and entered it, granting me access to the Wazuh dashboard. It felt like peering into the control screens of a vigilant security sentinel.
 
-![Wazuh Dashboard](insert-link-to-screenshot)
+![Wazuh Dashboard](https://i.imgur.com/26xU0hY.png)
 
 ### Adding Security Agents
 
@@ -40,7 +40,7 @@ The heart of my SIEM system lay in adding security agents to monitor various dev
 
 I utilized PowerShell to install and initiate the agent, empowering it to start its vigilant watch.
 
-![Adding Windows Agent](insert-link-to-screenshot)
+![Adding Windows Agent](https://i.imgur.com/Fv0ON8Y.png)
 
 #### Mac Agent
 
