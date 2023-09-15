@@ -51,6 +51,9 @@ With the Mac, I turned to the Terminal, configuring the agent to join my securit
 
 ## Observations and Early Alerts
 
+![Modules](https://i.imgur.com/iavsAmB.png)
+![Dashboard](https://i.imgur.com/dc7yI8b.png)
+
 After the setup was complete and both computers were under surveillance, I noticed some intriguing alerts. My SIEM system flagged vulnerabilities, such as the presence of the guest user not being disabled on the Mac. Additionally, I intentionally tested failed login attempts to see how the system responded. These early insights highlighted the power of proactive security monitoring.
 
 ## The Need for Time and Data
@@ -65,10 +68,6 @@ My journey into the realm of home network security was far from over. The next s
 
 This project taught me the importance of proactive security monitoring and the incredible potential that SIEM systems like Wazuh offer, even in a home network environment. It reinforced the notion that security is a journey, not a destination, and that each step taken brings greater resilience and knowledge.
 
-![Alerts](insert-link-to-screenshot)
-
-![Failed Login Attempts](insert-link-to-screenshot)
-
-![Dashboard Insights](insert-link-to-screenshot)
-
 My adventure in configuring Wazuh for home network security was just the beginning. It was a voyage of discovery, empowerment, and an unwavering commitment to the digital safety of my home.
+
+## More to come....
