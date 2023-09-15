@@ -44,9 +44,10 @@ I utilized PowerShell to install and initiate the agent, empowering it to start 
 
 #### Mac Agent
 
-With the Mac, I turned to the Terminal, configuring the agent to join my security team.
+With the Mac, I turned to the Terminal, configuring the agent to join my security team using the following command:
 
-![Adding Mac Agent](insert-link-to-screenshot)
+`curl -so wazuh-agent.pkg https://packages.wazuh.com/4.x/macos/wazuh-agent-4.5.2-1.intel64.pkg && sudo echo "WAZUH_MANAGER='<IP ADDRESS>' && WAZUH_AGENT_GROUP='default' && WAZUH_AGENT_NAME='<AGENT NAME>'" > /tmp/wazuh_envs && sudo installer -pkg ./wazuh-agent.pkg -target /`
+
 
 ## Observations and Early Alerts
 
