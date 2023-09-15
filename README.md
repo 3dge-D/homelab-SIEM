@@ -56,9 +56,11 @@ With the Mac, I turned to the Terminal, configuring the agent to join my securit
 
 After the setup was complete and both computers were under surveillance, I noticed some intriguing alerts. My SIEM system flagged vulnerabilities, such as the presence of the guest user not being disabled on the Mac. Additionally, I intentionally tested failed login attempts to see how the system responded. These early insights highlighted the power of proactive security monitoring.
 
+While delving deeper into Wazuh's capabilities, I ventured into its Modules section, which is divided into four distinct categories: **Security Information Management, Auditing and Policy Monitoring, Threat Detection and Response, and Regulatory Compliance**. In particular, the 'Threat Detection and Response' module intrigued me with its inclusion of the MITRE ATT&CK framework. This feature, nestled within the module, offers a powerful tool to associate Tactics, Techniques, and Procedures (TTPs) with various security events detected on my network. Such a capability not only enhances my network's security but also serves as a valuable resource for learning about threat intelligence. It provides a deeper understanding of how attackers operate and allows me to proactively defend against emerging threats
+
 ## The Need for Time and Data
 
-As I delved deeper into the world of SIEM, I recognized that the system's effectiveness would grow over time as it collected more data. I eagerly anticipated the wealth of knowledge and insights it would bring, allowing me to fine-tune my security protocols further.
+As I delved deeper into the world of Wazuh, I recognized that the system's effectiveness would grow over time as it collected more data. I eagerly anticipated the wealth of knowledge and insights it would bring, as I fine-tune my security protocols further and configure the system to suit my network security needs.
 
 ## Future Explorations
 
